@@ -1,0 +1,77 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b0ce4691-86f3-454a-911e-8fa442b5c719" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sucursal</ID>
+  <Name>Sucursal</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5f90846e-968b-456d-938d-4c978229bdad">
+    <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="164110e9-0149-413b-92b6-488cb6a440c1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="bc368bb6-abab-4c98-895f-4f57c4086e63">
+      <ID>Codigo</ID>
+      <Name>Codigo</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a438ffe9-a449-4660-9744-de33de0df6d8">
+          <DataType>WChar</DataType>
+          <DataSize>64</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ed3c3a3d-8855-403e-98d0-15ac70f59f9e">
+            <TableID>dbo_Sucursal</TableID>
+            <ColumnID>Codigo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

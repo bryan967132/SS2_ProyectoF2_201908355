@@ -1,0 +1,145 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d076736f-ab16-4fdd-ab16-52fcd4507251" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Seminario2 201908355</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Compra</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="864fa982-313a-4f17-924a-c158609252d3">
+          <ID>Compra</ID>
+          <Name>Compra</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="54028ff5-f7b1-4539-b9a6-ab58423fd58e">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Compra</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Venta</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="64d79754-deb3-4c3d-aed1-3fb29323824c">
+          <ID>Venta</ID>
+          <Name>Venta</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5475eda5-1f58-417c-9a27-37ad38df6deb">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Venta</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vendedor</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c7a13ef2-eba7-465a-890a-9c89a5ed3dbf">
+          <ID>Vendedor</ID>
+          <Name>Vendedor</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8661d0a8-787e-4bd7-ac86-0bc7b3ce03ba">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Vendedor</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sucursal</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="098782b4-74fd-4718-96ce-3dbec09d1432">
+          <ID>Sucursal</ID>
+          <Name>Sucursal</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="170eec02-a452-4402-91d7-6bea96cfe46a">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Sucursal</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Proveedor</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="54102190-6990-470c-8776-9fab629ada35">
+          <ID>Proveedor</ID>
+          <Name>Proveedor</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3a056fdb-5609-431d-b41a-d93e87b712c1">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Proveedor</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Producto</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="23d1e347-9744-4bdd-9673-e9d16211f2df">
+          <ID>Producto</ID>
+          <Name>Producto</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ed8456dd-32a8-4724-bc16-e73201d0edce">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Producto</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Cliente</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3e84830e-7a30-406b-a260-aa031d8a0584">
+          <ID>Cliente</ID>
+          <Name>Cliente</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="8dd0d303-fbe4-425e-8108-dbe80d172797">
+            <DataSourceViewID>Seminario2 201908355</DataSourceViewID>
+            <TableID>dbo_Cliente</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
